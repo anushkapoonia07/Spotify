@@ -159,3 +159,61 @@ h2{
     color: #ffffff;
     font-size: 30px;
 }
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.topbar{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.list{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: stretch;
+}
+.list img{
+  width: 150px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+ 
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  .logo {
+      font-size: 18px;
+  }
+  nav.show-menu ul {
+      display: flex;
+      flex-direction: column;
+      background-color: #1DB954;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 100%;
+      padding: 10px;
+  }
+
+  nav.show-menu ul li {
+      margin-bottom: 10px;
+  }
+
+  .playlist, .sidebar {
+      width: 100%;
+      margin-right: 0;
+  }
+}
+
